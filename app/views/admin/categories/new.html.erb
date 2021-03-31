@@ -1,0 +1,20 @@
+<section class="admin-products-new">
+  <header class="page-header">
+    <h1>Admin &raquo; New Category</h1>
+  </header>
+
+  <div class="jumbotron">
+    <%= link_to 'All Categories', [:admin, :categories], class: 'btn btn-info'
+    %> <%# button to see all categories%>
+  </div>
+
+  <div class="jumbotron">
+    <%= form_for [:admin, @category] do |form| %> <%# use the form to add the category taken%>
+    <div class="form-group">
+      <%= form.label :name %> <%= form.text_field :name, class: 'form-control'
+      %> <%# inputs for the new category to be added%>
+    </div>
+    <%= form.submit 'Create Category', class: 'btn btn-success' %> 
+    <% end %>
+  </div>
+</section>

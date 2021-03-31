@@ -1,0 +1,27 @@
+<section class="admin-products-index">
+  <header class="page-header">
+    <h1>Admin &raquo; All Categories</h1>
+  </header>
+
+  <div class="jumbotron">
+    <%= link_to 'Add a New Category', [:new, :admin, :category], class: 'btn
+    btn-info' %> <%# button to see all categories%>
+  </div>
+
+  <div class="jumbotron">
+    <table class="table table-bordered-primary">
+      <thead class="list-group-item-info">
+        <tr>
+          <th>Categories</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @categories.each do |category| %> <%# go through all categories and display them in the body%>
+        <tr>
+          <td><%= category.name %></td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+</section>
