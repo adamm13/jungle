@@ -2,6 +2,18 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Features
+
+* Users can Register and Sign in and out
+* Users can sort products by category
+* Users can add and remove items from their carts.
+* Users can complete full checkout using [Stripe](https://stripe.com/en-ca)
+* Administrators have password protected access to dashboards
+* Administrators can add/remove products and categories
+
+## Website
+
+
 
 ## Setup
 
