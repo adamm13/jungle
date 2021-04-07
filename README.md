@@ -13,13 +13,16 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ## Website
 
-Signup:
+* Signup
 ![alt text](https://github.com/adamm13/jungle/blob/master/docs/signup.png)
-Category:
+
+* Category
 ![alt text](https://github.com/adamm13/jungle/blob/master/docs/category.png)
-Product:
+
+* Product
 ![alt text](https://github.com/adamm13/jungle/blob/master/docs/product.png)
-Checkout:
+
+* Checkout
 ![alt text](https://github.com/adamm13/jungle/blob/master/docs/checkout.png)
 
 ## Setup
